@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="368c568c-2f43-4143-b1c6-e197b341e9fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Process/Weights.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process/Weights.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hopefield/META-INF/hopefield.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hopefield/META-INF/hopefield.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hopefield/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hopefield/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hopefield/matrixOperations/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hopefield/matrixOperations/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hopefield/matrixOperations/Substract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hopefield/matrixOperations/Substract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hopefield/matrixOperations/Transpose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hopefield/matrixOperations/Transpose.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +58,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="398" />
+          <entry key="kt" value="406" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="398" />
+          <entry key="Kotlin" value="406" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="102" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
+            <state relative-caret-position="238">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#0#133#0" expanded="true" />
               </folding>
@@ -223,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535169334262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535169552962" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -393,17 +398,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540413261171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="almost">
+      <created>1535169368186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535169368186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3578000" />
+    <option name="totallyTimeSpent" value="3890000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,7 +424,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +453,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="package" />
-    <option name="LAST_COMMIT_MESSAGE" value="package" />
+    <MESSAGE value="almost" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/matrixOperations/Transpose.kt">
@@ -488,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="102" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="e#0#133#0" expanded="true" />
           </folding>
