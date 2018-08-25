@@ -6,7 +6,7 @@ class Weights {
     fun Weights(m1: Array<IntArray>,m2: Array<IntArray>):Array<IntArray>
     {
 
-        val i = arrayOf(intArrayOf(1,0,0), intArrayOf(0,1,0), intArrayOf(0,0,1))
+        val i = arrayOf(intArrayOf(1,0,0,0), intArrayOf(0,1,0,0), intArrayOf(0,0,1,0), intArrayOf(0,0,0,1))
 
 //        val m1 = arrayOf(intArrayOf(1, 1), intArrayOf(-1, 1), intArrayOf(-1, 1))
   //      val m2 = arrayOf(intArrayOf(-1, 1), intArrayOf(1, -1), intArrayOf(1, 1))
