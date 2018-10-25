@@ -58,4 +58,53 @@ fun main(args: Array<String>) {
             }
         }
     }
+
+
+
+    var sumatoria = 0
+    for (i in 0 until resultado.size){
+        for (j in 0 until resultado[0].size){
+            sumatoria += (resultado[i][j] * pf[i][j])
+        }
+    }
+
+    if (sumatoria==0)
+    {
+        println("ys = pf")
+    }
+    else
+    {
+        println("ys no es igual a pf")
+
+    }
+
+    println("pesos")
+    for (x in 0 until weights.size) {
+        for (y in 0 until weights[x].size) {
+            print(weights[x][y])
+        }
+        println()
+    }
+
+    println("ys")
+    for (x in 0 until resultado.size) {
+        for (y in 0 until resultado[x].size) {
+            print(resultado[x][y])
+        }
+        println()
+    }
+
+    println("pf")
+
+    for (x in 0 until pf.size) {
+        for (y in 0 until pf[x].size) {
+            print(pf[x][y])
+        }
+        println()
+    }
+
+
+
+
+
 }
