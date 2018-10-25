@@ -1,7 +1,7 @@
 package matrixOperations
 
 class Addition{
-    fun sum(matriz1: ArrayList<IntArray>,matriz2: ArrayList<IntArray>)  : Array<IntArray>
+    fun sum(matriz1: Array<IntArray>,matriz2: Array<IntArray>)  : Array<IntArray>
     {
         //val matriz1 = arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6))
         //val matriz2 = arrayOf(intArrayOf(6, 5, 4), intArrayOf(3, 2, 1))

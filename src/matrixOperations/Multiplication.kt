@@ -2,7 +2,7 @@ package matrixOperations
 
 class Multiplication{
 
-    fun multiplyMatrices(m1: ArrayList<IntArray>,m2: ArrayList<IntArray>) : Array<IntArray>{
+    fun multiplyMatrices(m1: Array<IntArray>, m2: Array<IntArray>) : Array<IntArray>{
 
         //val m1 = arrayOf(intArrayOf(1, 0, 2), intArrayOf(-1, 3, 1))
         //val m2 = arrayOf(intArrayOf(3, 1), intArrayOf(2, 1), intArrayOf(1, 0))
